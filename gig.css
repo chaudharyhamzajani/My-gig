@@ -1,0 +1,78 @@
+*{
+    border: border-box;
+    margin: 0%;
+    text-align: center;
+}
+.background{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 100%;
+}
+/* **background end** */
+.boxone{
+height: 500px;
+width: 500px;
+border: 1.5 solid black;
+}
+/* **box1 end** */
+.circle{
+    background-image: url(pic.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(243, 238, 238);
+    position:  relative;
+    bottom:  400px;
+    left: 190px;
+}
+ /* **circle end**  */
+.boxtwo{
+    background-color: lightblue;
+    height: 150px;
+    width: 100%;
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+}
+/* **box2 end** */
+.boxthree{
+    background-color: white;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    }
+    .myname{
+        height: 50px;
+        width: 250px;
+    }
+    .ancertag{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    /* **box3 end** */
+.boxfour{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-top:0.1px solid lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px ;
+}
+.user{
+    height: 50px;
+    width: 50px;
+    text-size-adjust: 18px;
+}
+.ancertag{
+    font-size: 20px;
+    font-weight: 800;
+}
+/* **box4 end** */
