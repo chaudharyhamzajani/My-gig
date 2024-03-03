@@ -4,7 +4,7 @@
     text-align: center;
 }
 .background{
-    background-color: aqua;
+    background-image: url(background.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@ border: 1.5 solid black;
 }
  /* **circle end**  */
 .boxtwo{
-    background-color: lightblue;
+    background-image: url(bg2.jpg);
     height: 150px;
     width: 100%;
     border-top-left-radius:25px ;
